@@ -8,3 +8,5 @@ I found a dataset of shark attacks, so why not make an app about it?
 - Docker
 - AWS
 - Snowflake
+- Direnv
+- Pyenv
