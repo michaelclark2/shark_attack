@@ -8,7 +8,7 @@ NORMALIZE=${DATADIR}/normalize.sql
 all: normalize
 	psql $(DB) -f $(BUILD)
 
-master: 
+master: clean
 	@cat $(MASTER) >> $(BUILD)
 
 import: master
